@@ -72,10 +72,14 @@ h1 {
     cursor: pointer;
     margin: auto;
     color: rgb(43, 68, 82);
+    height: 80px;
+    width: 200px;
 }
 
 #headup:hover {
     color: #0088a9;
     transition: 0.15s ease;
     font-size: 80px;
+    height: 143px;
+    width: 1010.4px;
 }
