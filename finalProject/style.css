@@ -1,0 +1,81 @@
+body {
+    background-image: url("img/background.png");
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 200px;
+}
+
+#outer {
+    margin: 0;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color:black;
+}
+
+#inner {
+    width: 80%;
+    height: 90%;
+    position: relative;
+    text-align: center;
+    margin: 0px 10%;
+    background-color: rgba(187, 229, 253, 0.945);
+}
+
+h1 {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    font-weight: bolders;
+    font-size: 80px;
+    color: rgb(43, 68, 82);
+}
+
+#button {
+    display: flex;
+    padding: 0px 35%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+#button, a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(43, 68, 82);
+    transition: 0.3s ease;
+}
+
+#button, a:hover {
+    text-decoration: none;
+    color: #0088a9;
+    font-size: 35px;
+}
+
+.link {
+    padding: 0px 5px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+#headup {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 10px 0px;
+    cursor: pointer;
+    margin: auto;
+    color: rgb(43, 68, 82);
+}
+
+#headup:hover {
+    color: #0088a9;
+    transition: 0.15s ease;
+    font-size: 80px;
+}

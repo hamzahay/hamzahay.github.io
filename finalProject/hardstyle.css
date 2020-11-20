@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 142, 143);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20%;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(151, 77, 69);
+}
+section {
+    margin-bottom: 15px;
+}
+
+#card {
+    perspective: 1000px;
+    padding: 15px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-front {
+    width: 130px;
+    height: 220px;
+    transform-style: preserve-3d;
+    transition:all 0.5s ease;
+    background-color: black;
+}
+
+/*
+.card:hover .card-front {
+    transform: rotateY(180deg);
+}
+*/
+
+.card-front .blank,
+.card-front .fill {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50% 0px;
+}
+
+
+.card-front .blank{
+    background-color: white;
+}
+
+.js {
+    background-color: rgb(247, 223, 30);
+}
+
+.css {
+    background-color: rgb(74, 143, 225);
+}
+
+.html {
+    background-color: rgb(228, 77, 38);
+}
+
+.python {
+    background-color: rgb(54, 112, 160);
+}
+
+.java {
+    background-color: rgb(229, 24, 55)
+}
+
+.php {
+    background-color: rgb(79, 91, 147)
+}
+
+.ruby {
+    background-color: rgb(235, 87, 69)
+}
+
+.c {
+    background-color: rgb(104, 33, 122)
+}
+
+.node {
+    background-color: rgb(136, 188, 91);
+}
+
+.atom {
+    background-color: rgb(92, 180, 175)
+}
+
+.vsc {
+    background-color: rgb(43, 43, 49)
+}
+
+.sublime {
+    background-color: rgb(79, 79, 79)
+}
+/*
+.node .fill img{
+    width: 100%;
+    height: 70%;
+    padding: 20% 0px;
+}
+*/
+
+.fill {
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#backtomenu, a {
+    text-align: center;
+    padding-top: 13px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(151, 77, 69);
+    transition: 0.15s ease;
+}
+
+#backtomenu, a:hover {
+    color: rgb(129, 67, 60);
+    font-size: 35px;
+}
